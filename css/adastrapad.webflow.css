@@ -4833,7 +4833,9 @@ a {
 
 .fs-cc-prefs_content {
   overflow: auto;
+  height: 70vh;
   padding: 2.5rem 2rem;
+  scrollbar-width: 2px;
 }
 
 .fs-cc-manager_trigger {
@@ -6101,7 +6103,7 @@ a {
   }
 
   .fs-cc-prefs_content {
-    overflow: visible;
+    overflow: auto;
     height: auto;
   }
 
@@ -6806,9 +6808,6 @@ a {
     align-items: flex-start;
   }
 
-  .fs-cc-prefs_content {
-    overflow: auto;
-  }
 
   .fs-cc-prefs_title {
     font-size: 1.25rem;
