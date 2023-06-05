@@ -5716,7 +5716,7 @@ a {
   }
 
   .fs-cc-prefs_content {
-    overflow: auto;
+    overflow: visible;
     height: auto;
   }
 
